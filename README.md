@@ -1,2 +1,2 @@
-# LearningPhyton
-My progress in Phyton
+# LearningPython
+My progress in Python
