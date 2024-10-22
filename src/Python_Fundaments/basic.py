@@ -32,3 +32,13 @@ print("The number years is : " + str(num1 + num2))
 #print(float(num1) + num2)
 #int_num = num1 + int(num2)
 #print(int_num)
+##################STRINGS#################
+course = 'Phyton for beginners'
+#find() The method shows if my string contains a character or a sequence of characteres/ shows the index of the string
+print(course.upper()) 
+print(course.find('r')) 
+#replace(arg,arg) The method replaces a string with another string
+#Strings in python are inmutable
+print(course.replace('for','For'))
+#operator in returns a boolean value  if the string is found int the string
+print('Phyton' in course)
