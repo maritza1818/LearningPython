@@ -42,3 +42,23 @@ print(course.find('r'))
 print(course.replace('for','For'))
 #operator in returns a boolean value  if the string is found int the string
 print('Phyton' in course)
+########### ARITHMETHIC OPERATORS ##########
+#if one slash is used, a float is returned, but if two slashes are used, ant int is returned
+print(10/4)
+print(10//4)
+# Operartor ** represents an exponent
+print(10**2)
+#Operator de ASIGNACION AUMENTADA
+age_cat = 4
+age_cat += 5
+print(age_cat)
+age_cat *= 2
+print(age_cat)
+age_cat **= 2
+print(age_cat)
+age_cat %= 5
+print(age_cat)
+age_cat /=3
+print(age_cat)
+age_cat //=3
+print(age_cat)
