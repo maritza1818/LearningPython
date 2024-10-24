@@ -76,3 +76,24 @@ age_cat = 4
 #operator not "invert the False for the True"
 print( not age_cat < 0 )
 
+# IF STAMENTS ########3333333333333333333333333333333333
+temperature = 22
+if temperature > 21:
+    print("It's hot")
+    print("miau")
+elif temperature >= 22: #(22,30]
+    print("It's cool")
+elif temperature > 10:
+    print("It's cold")
+elif temperature < 10:
+    print("It'extremaly cold")
+print("done")
+####FIRST EXERCISEEEEEEEEEEEEEEEEEEE
+#CALCULATOR WEIGHT
+weight = float(input("Enter you weight: "))
+answer = input("Your weight is in k(kg) or l(lbs)? ")
+if answer.lower() == "k":
+    print("Your weight is in Kilograms: " + str(weight))
+elif answer.lower() == "l":
+    print("Your weight is in Pounds: "  + str(weight*2.20462))
+    
