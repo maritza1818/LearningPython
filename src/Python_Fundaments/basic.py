@@ -49,6 +49,7 @@ print(10//4)
 # Operartor ** represents an exponent
 print(10**2)
 #Operator de ASIGNACION AUMENTADA
+# INCREASED ALLOCATION OPERATOR
 age_cat = 4
 age_cat += 5
 print(age_cat)
@@ -62,3 +63,16 @@ age_cat /=3
 print(age_cat)
 age_cat //=3
 print(age_cat)
+#operator procedence pmmdss :D ###################### 
+########COMPARISON OPERATORS #########################
+x = 3 > 2
+print(x)
+#LOGICAL OPERATORS and, or, not
+age_cat = 4
+print(age_cat > 0 and age_cat <=4)
+age_cat = 4
+print(age_cat > 10 or age_cat <=4)
+age_cat = 4
+#operator not "invert the False for the True"
+print( not age_cat < 0 )
+
