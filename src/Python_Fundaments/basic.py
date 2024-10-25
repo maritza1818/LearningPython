@@ -96,4 +96,10 @@ if answer.lower() == "k":
     print("Your weight is in Kilograms: " + str(weight))
 elif answer.lower() == "l":
     print("Your weight is in Pounds: "  + str(weight*2.20462))
-    
+
+
+#While Loops ################################
+i = 1_000
+while i >= 1:#more readable code
+    print( i * '*')
+    i = i - 100
