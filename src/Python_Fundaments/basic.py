@@ -99,7 +99,17 @@ elif answer.lower() == "l":
 
 
 #While Loops ################################
-i = 1_000
-while i >= 1:#more readable code
+i = 1_000#more readable code
+while i >= 1:
     print( i * '*')
     i = i - 100
+lilist=[1,2,3]
+print(lilist[1,3])
+        
+#Lists 
+names = ["liliana", "claudia", "madia"]
+print(names)
+print(names[0])
+print[-3]
+names[0] = "lilicat"
+print(names[0:3])
